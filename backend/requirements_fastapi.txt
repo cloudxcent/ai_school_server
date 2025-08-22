@@ -1,0 +1,21 @@
+# FastAPI and web framework dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Azure dependencies
+azure-data-tables==12.4.0
+azure-core==1.28.0
+
+# Authentication and security
+bcrypt==4.0.1
+PyJWT==2.8.0
+python-multipart==0.0.6
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Data validation
+pydantic[email]==2.5.0
+
+# Utilities
+uuid==1.30

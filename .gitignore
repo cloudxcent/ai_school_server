@@ -1,0 +1,138 @@
+# AI School Server - GitIgnore Configuration
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask/FastAPI
+instance/
+.webassets-cache
+*.db
+*.sqlite3
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.development
+config/local_settings.py
+
+# Azure & Cloud Credentials
+azure_credentials.json
+service_account.json
+.azure/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.apk
+*.ap_
+*.aab
+bin/
+gen/
+out/
+*.jks
+*.keystore
+google-services.json
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Temporary & Cache Files
+*.tmp
+*.temp
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test Output Files
+test_output.txt
+test_results.txt
+azure_test_log.txt
+*.test.log
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

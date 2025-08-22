@@ -1,0 +1,14 @@
+# Flask and web framework dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Azure dependencies
+azure-data-tables==12.4.0
+azure-core==1.28.0
+
+# Authentication and security
+bcrypt==4.0.1
+PyJWT==2.8.0
+
+# Environment and configuration
+python-dotenv==1.0.0
